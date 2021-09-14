@@ -26,7 +26,15 @@ Simple WebService to proxy image urls
 Features
 --------
 
-* TODO
+* http://localhost:5000/img/http://some-host.com/some/image.jpg 
+
+  http://some-host.com/some/image.jpg 를 가져와 캐시에 보관하고 출력합니다. 캐시에 보관되어 있는 경우, 캐시의 보관 내용을 출력합니다.
+
+TODO
+----
+
+* redis 외의 캐시 지원.
+
 
 Credits
 -------
